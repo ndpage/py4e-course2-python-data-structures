@@ -2,14 +2,23 @@
 # open(filename,mode) gets a reference to a file 
 # Other methods: read(), write(), and close()
 
-fhandle = open("test.txt")
 
-# new line character \n
-# New line does not get shown but exist in most files
 
-for each_line in fhandle:
-    each_line = each_line.rstrip()
-    if not each_line.startswith("This"):
-        continue
-    print(each_line)
-    
+string = "abc"
+integer = 1
+floating = 1.11
+boolean = True
+
+cluster = (string, integer, floating, boolean)
+
+print(type(cluster))
+
+for each in cluster:
+  print(each)
+
+# for item in cluster:
+#   print(type(item))
+#   methods = dir(item)
+#   for method in methods:
+#     print(method)
+  
