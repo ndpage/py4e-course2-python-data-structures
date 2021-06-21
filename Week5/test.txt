@@ -1,0 +1,3 @@
+This is a test of the dictionary data structure in Python.  
+Each word will be counted and stored for later visualization. 
+If a word is not found in the dictionary, the code will add that word and increase the word count by 1.  
